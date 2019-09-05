@@ -13,7 +13,7 @@
         {% endif%}
         <h4 class="list-group-item-name">
           {% set issue_icon = 'abuse' if issue.visibility == 'hidden' else issue.status %}
-          <span class="{{ issue_icon }} icon" title="{{issue.status}} issue"><i class="icon-exclamation-sign"></i></span>
+          <span class="{{ issue_icon }} icon" title="{{issue.status}} issue"><i class="fa fa-exclamation-circle"></i></span>
           <a href="{{ h.url_for('issues_show', dataset_id=pkg.id, issue_number=issue.number) }}" {% if issue.visibility == 'hidden'%} class="issue-abuse"{% endif%}>
             {{issue.title}}
           </a>

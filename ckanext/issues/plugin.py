@@ -60,7 +60,7 @@ class IssuesPlugin(p.SingletonPlugin):
             m.connect('issues_dataset',
                       '/dataset/:dataset_id/issues',
                       action='dataset',
-                      ckan_icon='warning-sign')
+                      ckan_icon='exclamation-triangle')
             m.connect('issues_new',
                       '/dataset/:dataset_id/issues/new',
                       action='new')

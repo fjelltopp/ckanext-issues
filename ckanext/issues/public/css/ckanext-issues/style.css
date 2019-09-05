@@ -84,8 +84,7 @@
 }
 
 .issue-comment-header .subtle-btn {
-  padding: 10px 5px;
-  color: #999;
+  color: #777;
 }
 .issue-comment-header a.subtle-btn:hover {
   color: #009F00;
@@ -127,15 +126,6 @@
   background-color: #fff;
 }
 
-.issue-comment-new textarea {
-  margin-bottom: 0;
-}
-
-.issue-comment-new .form-actions {
-  margin: 0;
-  padding: 0;
-}
-
 .issue-comment-label {
     float: right;
     margin: 8px 5px 0px 10px;
@@ -147,6 +137,11 @@
 
 .issue-abuse {
   color: #b0b0b0;
+}
+
+.context-info>div,
+.context-info>form{
+  margin:10px 20px;
 }
 
 /*****************************************
@@ -209,6 +204,7 @@
   overflow: hidden;
   color: #999999;
   margin: 0;
+  padding-inline-start: 0px;
 }
 
 .list-group-item .list-group-item-name a, .list-group-item .list-group-item-meta a {
@@ -237,6 +233,8 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
+  font-size: 35px;
+  margin-right: 20px;
 }
 
 .list-group-item-name .icon.open {
