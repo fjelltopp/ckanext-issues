@@ -506,7 +506,7 @@ def organization_users_autocomplete(context, data_dict):
 
     users = []
     for user in query.all():
-        user_dict = dict(user.__dict__)
+        user_dict = user._asdict()
         user_dict.pop('_labels', None)
         users.append(user_dict)
     return users
