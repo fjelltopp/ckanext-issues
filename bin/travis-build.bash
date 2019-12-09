@@ -10,7 +10,6 @@ sudo apt-get install postgresql-$PGVERSION solr-jetty libcommons-fileupload-java
 echo "Installing CKAN and its Python dependencies..."
 git clone https://github.com/ckan/ckan
 cd ckan
-
 if [ $CKANVERSION == 'master' ]
 then
     echo "CKAN version: master"
