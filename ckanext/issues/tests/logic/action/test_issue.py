@@ -725,14 +725,18 @@ class TestCommentSearch(ClearOnTearDownMixin):
         result = helpers.call_action('issue_comment_search',
                                      organization_id=self.organization['id'])
 
-        assert_equals([self.comment1['id'], self.comment2['id']],
-                      [c['id'] for c in result])
+        assert_equals(len(result), 2)
+
+        ids = [c['id'] for c in result]
+        assert_in(self.comment1['id'], ids)
+        assert_in(self.comment2['id'], ids)
 
     def test_search(self):
         result = helpers.call_action('issue_comment_search')
 
-        assert_equals([self.comment1['id'],
-                       self.comment2['id'],
-                       self.comment3['id'],
-                       self.comment4['id']],
-                      [c['id'] for c in result])
+        assert_equals(len(result), 4)
+        ids = [c['id'] for c in result]
+        assert_in(self.comment1['id'], ids)
+        assert_in(self.comment2['id'], ids)
+        assert_in(self.comment3['id'], ids)
+        assert_in(self.comment4['id'], ids)
