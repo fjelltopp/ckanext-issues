@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-issues 0.3\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-08 13:27+0000\n"
+"POT-Creation-Date: 2020-01-08 16:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,6 +203,54 @@ msgstr ""
 msgid "No description provided"
 msgstr ""
 
+#: ckanext/issues/i18n/extra_translations.py:6
+msgid "Newest"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:7
+msgid "Oldest"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:8
+msgid "Most Commented"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:9
+msgid "Least Commented"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:10
+msgid "Most Recently Updated"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:11
+msgid "Least Recently Updated"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:12
+msgid "Open"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:13
+msgid "Closed"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:14
+msgid "Visible"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:15
+msgid "Hidden"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:16
+msgid "Status"
+msgstr ""
+
+#: ckanext/issues/i18n/extra_translations.py:17
+msgid "Visibility"
+msgstr ""
+
 #: ckanext/issues/lib/helpers.py:202
 msgid "[{site_title} Issue] {dataset}"
 msgstr ""
@@ -326,6 +374,14 @@ msgstr ""
 msgid "Not abuse"
 msgstr ""
 
+#: ckanext/issues/templates/issues/common.html:7
+msgid "Spam/Abuse - hidden from normal users"
+msgstr ""
+
+#: ckanext/issues/templates/issues/common.html:11
+msgid "Reported by you to admins"
+msgstr ""
+
 #: ckanext/issues/templates/issues/common.html:30
 #: ckanext/issues/templates/issues/organization_issues.html:76
 #, python-format
@@ -349,20 +405,20 @@ msgstr ""
 msgid "Issues"
 msgstr ""
 
-#: ckanext/issues/templates/issues/dataset.html:26
+#: ckanext/issues/templates/issues/dataset.html:27
 #: ckanext/issues/templates/issues/organization_issues.html:27
 msgid "Search issues..."
 msgstr ""
 
-#: ckanext/issues/templates/issues/dataset.html:28
+#: ckanext/issues/templates/issues/dataset.html:29
 #: ckanext/issues/templates/issues/organization_issues.html:29
-#: ckanext/issues/templates/snippets/search_result_text.html:4
+#: ckanext/issues/templates/snippets/search_result_text.html:7
 msgid "{number} issue found"
 msgid_plural "{number} issues found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ckanext/issues/templates/issues/dataset.html:38
+#: ckanext/issues/templates/issues/dataset.html:39
 msgid "No issues"
 msgstr ""
 
@@ -421,17 +477,17 @@ msgstr ""
 msgid "Assign"
 msgstr ""
 
-#: ckanext/issues/templates/snippets/search_result_text.html:2
+#: ckanext/issues/templates/snippets/search_result_text.html:5
 msgid "{number} issue found for \"{query}\""
 msgid_plural "{number} issues found for \"{query}\""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ckanext/issues/templates/snippets/search_result_text.html:3
+#: ckanext/issues/templates/snippets/search_result_text.html:6
 msgid "No issues found for \"{query}\""
 msgstr ""
 
-#: ckanext/issues/templates/snippets/search_result_text.html:5
+#: ckanext/issues/templates/snippets/search_result_text.html:8
 msgid "No issues found"
 msgstr ""
 
