@@ -47,4 +47,3 @@
   {% snippet "package/snippets/info.html", pkg=pkg %}
   {{ common.search_options_sidebar(user_can_change_visibility=h.check_access('package_update', {'id': pkg.id }), url_params={'dataset_id':pkg['id']}) }}
 {% endblock %}
-
