@@ -1,7 +1,7 @@
 from math import ceil
 
 from pylons import config
-
+from ckan.common import _
 from ckan import model
 from ckan.plugins import toolkit
 from ckan.lib import helpers
@@ -91,7 +91,7 @@ class Pagination(object):
 
 
 def get_issue_filter_types():
-    return [(f.value, k) for k, f in IssueFilter.__members__.items()]
+    return [(_(f.value), k) for k, f in IssueFilter.__members__.items()]
 
 
 def get_issues_per_page():

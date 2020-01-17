@@ -1,6 +1,6 @@
 {% if type == 'issue' %}
   {% if count is not defined %}
-    {% set count = 0 %}
+  {% set count = 0 %}
   {% endif %}
   {% set text_query = ungettext('{number} issue found for "{query}"', '{number} issues found for "{query}"', count) %}
   {% set text_query_none = _('No issues found for "{query}"') %}
