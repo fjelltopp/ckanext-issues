@@ -21,383 +21,383 @@ msgstr ""
 
 #: ckanext/issues/auth.py:20
 msgid "User {0} not authorized for action on issue {1}"
-msgstr "Untranslated French"
+msgstr "L’utilisateur {0} ne dispose pas des droits nécessaires pour agir sur le problème {1}."
 
 #: ckanext/issues/auth.py:42
 msgid "User {0} not authorized for action"
-msgstr "Untranslated French"
+msgstr "L’utilisateur {0} ne dispose pas des droits nécessaires pour cette action."
 
 #: ckanext/issues/auth.py:91
 msgid "User {user} not authorized for action on issue {issue}"
-msgstr "Untranslated French"
+msgstr "L’utilisateur {user} ne dispose pas des droits nécessaires pour agir sur le problème {issue}."
 
 #: ckanext/issues/controller/controller.py:48
 msgid "Issues have not been enabled for this dataset"
-msgstr "Untranslated French"
+msgstr "Les problèmes n’ont pas été activés sur ce jeu de données."
 
 #: ckanext/issues/controller/controller.py:51
 #: ckanext/issues/controller/controller.py:69
 msgid "Dataset not found"
-msgstr "Untranslated French"
+msgstr "Jeu de données non trouvé"
 
 #: ckanext/issues/controller/controller.py:54
 msgid "Unauthorized to view issues for this dataset"
-msgstr "Untranslated French"
+msgstr "Vous ne disposez pas des droits nécessaires pour afficher les problèmes de ce jeu de données."
 
 #: ckanext/issues/controller/controller.py:66
 msgid "Issues have not been enabled for this organization"
-msgstr "Untranslated French"
+msgstr "Les problèmes n’ont pas été activés pour cette organisation."
 
 #: ckanext/issues/controller/controller.py:72
 msgid "Unauthorized to view issues for this organization"
-msgstr "Untranslated French"
+msgstr "Vous ne disposez pas des droits nécessaires pour afficher les problèmes de cette organisation."
 
 #: ckanext/issues/controller/controller.py:77
 msgid "Please login to add a new issue"
-msgstr "Untranslated French"
+msgstr "Veuillez vous identifier pour ajouter un nouveau problème."
 
 #: ckanext/issues/controller/controller.py:86
 msgid "Not authorized to add a new issue"
-msgstr "Untranslated French"
+msgstr "Vous ne disposez pas des droits nécessaires pour ajouter un nouveau problème."
 
 #: ckanext/issues/controller/controller.py:113
 msgid "Your issue has been registered, thank you for the feedback"
-msgstr "Untranslated French"
+msgstr "Votre problème a été enregistré. Merci de l’avoir signalé."
 
 #: ckanext/issues/controller/controller.py:131
 #: ckanext/issues/controller/controller.py:134
 msgid "Issue not found: {0}"
-msgstr "Untranslated French"
+msgstr "Problème non trouvé : {0}"
 
 #: ckanext/issues/controller/controller.py:178
 msgid "Invalid request"
-msgstr "Untranslated French"
+msgstr "Demande non valide"
 
 #: ckanext/issues/controller/controller.py:190
 msgid "Not authorized"
-msgstr "Untranslated French"
+msgstr "Vous ne disposez pas des droits nécessaires."
 
 #: ckanext/issues/controller/controller.py:199
 msgid "Comment cannot be empty"
-msgstr "Untranslated French"
+msgstr "Le commentaire ne peut pas être vide."
 
 #: ckanext/issues/controller/controller.py:215
 msgid "Issue closed"
-msgstr "Untranslated French"
+msgstr "Problème fermé"
 
 #: ckanext/issues/controller/controller.py:217
 msgid "Issue re-opened"
-msgstr "Untranslated French"
+msgstr "Problème réouvert"
 
 #: ckanext/issues/controller/controller.py:255
 msgid "Unauthorized to delete issue {0}"
-msgstr "Untranslated French"
+msgstr "Vous ne disposez pas des droits nécessaires pour supprimer un problème {0}."
 
 #: ckanext/issues/controller/controller.py:260
 msgid "Issue {0} has been deleted."
-msgstr "Untranslated French"
+msgstr "Le problème {0} a été supprimé."
 
 #: ckanext/issues/controller/controller.py:278
 msgid "User {0} does not exist"
-msgstr "Untranslated French"
+msgstr "L’utilisateur {0} n’existe pas."
 
 #: ckanext/issues/controller/controller.py:298
 msgid "Assigned to {user}"
-msgstr "Untranslated French"
+msgstr "Attribué à {user}"
 
 #: ckanext/issues/controller/controller.py:308
 msgid "Unauthorized to assign users to issue"
-msgstr "Untranslated French"
+msgstr "Vous ne disposez pas des droits nécessaires pour attribuer des problèmes à des utilisateurs."
 
 #: ckanext/issues/controller/controller.py:322
 msgid "You must be logged in to report issues"
-msgstr "Untranslated French"
+msgstr "Vous devez vous identifier pour signaler des problèmes."
 
 #: ckanext/issues/controller/controller.py:333
 #: ckanext/issues/controller/controller.py:370
 msgid "Report acknowledged."
-msgstr "Untranslated French"
+msgstr "Rapport bien reçu."
 
 #: ckanext/issues/controller/controller.py:336
 #: ckanext/issues/controller/controller.py:373
 msgid "Marked as abuse/spam."
-msgstr "Untranslated French"
+msgstr "Marqué comme abusif/spam."
 
 #: ckanext/issues/controller/controller.py:337
 msgid "Issue is visible."
-msgstr "Untranslated French"
+msgstr "Le problème s’affiche."
 
 #: ckanext/issues/controller/controller.py:339
 msgid "Issue is invisible to normal users."
-msgstr "Untranslated French"
+msgstr "Le problème ne s’affiche pas pour les utilisateurs standards."
 
 #: ckanext/issues/controller/controller.py:342
 msgid "Issue reported to an administrator"
-msgstr "Untranslated French"
+msgstr "Problème signalé à un administrateur"
 
 #: ckanext/issues/controller/controller.py:358
 msgid "You must be logged in to report comments"
-msgstr "Untranslated French"
+msgstr "Vous devez vous identifier pour signaler des commentaires."
 
 #: ckanext/issues/controller/controller.py:374
 msgid "Comment is visible."
-msgstr "Untranslated French"
+msgstr "Le commentaire s’affiche."
 
 #: ckanext/issues/controller/controller.py:376
 msgid "Comment is invisible to normal users."
-msgstr "Untranslated French"
+msgstr "Le commentaire ne s’affiche pas pour les utilisateurs standards."
 
 #: ckanext/issues/controller/controller.py:379
 msgid "Comment has been reported to an administrator"
-msgstr "Untranslated French"
+msgstr "Le commentaire a été signalé à un administrateur."
 
 #: ckanext/issues/controller/controller.py:402
 msgid "Issue report cleared"
-msgstr "Untranslated French"
+msgstr "Rapport de problème effacé"
 
 #: ckanext/issues/controller/controller.py:407
 msgid "You must be logged in clear abuse reports"
-msgstr "Untranslated French"
+msgstr "Vous devez vous identifier pour effacer les rapports abusifs."
 
 #: ckanext/issues/controller/controller.py:425
 msgid "Spam/abuse report cleared"
-msgstr "Untranslated French"
+msgstr "Rapport abusif/spam effacé"
 
 #: ckanext/issues/controller/controller.py:430
 msgid "You must be logged in to clear abuse reports"
-msgstr "Untranslated French"
+msgstr "Vous devez vous identifier pour effacer les rapports abusifs."
 
 #: ckanext/issues/controller/controller.py:447
 #: ckanext/issues/controller/controller.py:487
 msgid "Validation error: {0}"
-msgstr "Untranslated French"
+msgstr "Erreur de validation : {0}"
 
 #: ckanext/issues/controller/moderation.py:17
 #: ckanext/issues/controller/moderation.py:76
 msgid "Organization not found"
-msgstr "Untranslated French"
+msgstr "Organisation non trouvée"
 
 #: ckanext/issues/controller/moderation.py:22
 msgid "You must be logged in to moderate issues"
-msgstr "Untranslated French"
+msgstr "Vous devez vous identifier pour gérer les problèmes en tant que modérateur."
 
 #: ckanext/issues/controller/moderation.py:29
 msgid "Issue permanently hidden"
-msgstr "Untranslated French"
+msgstr "Problème masqué définitivement"
 
 #: ckanext/issues/controller/moderation.py:33
 msgid "All issue reports cleared"
-msgstr "Untranslated French"
+msgstr "Tous les rapports de problèmes ont été effacés."
 
 #: ckanext/issues/controller/moderation.py:81
 msgid "You must be logged in to moderate comment"
-msgstr "Untranslated French"
+msgstr "Vous devez vous identifier pour gérer les commentaires en tant que modérateur."
 
 #: ckanext/issues/controller/moderation.py:88
 msgid "Comment permanently hidden"
-msgstr "Untranslated French"
+msgstr "Commentaire masqué définitivement"
 
 #: ckanext/issues/controller/moderation.py:92
 msgid "All comment reports cleared"
-msgstr "Untranslated French"
+msgstr "Tous les rapports de commentaires ont été effacés."
 
 #: ckanext/issues/controller/show.py:18
 msgid "No description provided"
-msgstr "Untranslated French"
+msgstr "Aucune description fournie"
 
 #: ckanext/issues/i18n/extra_translations.py:6
 msgid "Newest"
-msgstr "Untranslated French"
+msgstr "Le plus récent"
 
 #: ckanext/issues/i18n/extra_translations.py:7
 msgid "Oldest"
-msgstr "Untranslated French"
+msgstr "Le plus ancien"
 
 #: ckanext/issues/i18n/extra_translations.py:8
 msgid "Most Commented"
-msgstr "Untranslated French"
+msgstr "Le plus commenté"
 
 #: ckanext/issues/i18n/extra_translations.py:9
 msgid "Least Commented"
-msgstr "Untranslated French"
+msgstr "Le moins commenté"
 
 #: ckanext/issues/i18n/extra_translations.py:10
 msgid "Most Recently Updated"
-msgstr "Untranslated French"
+msgstr "La dernière mise à jour"
 
 #: ckanext/issues/i18n/extra_translations.py:11
 msgid "Least Recently Updated"
-msgstr "Untranslated French"
+msgstr "La mise à jour la plus ancienne"
 
 #: ckanext/issues/i18n/extra_translations.py:12
 msgid "Open"
-msgstr "Untranslated French"
+msgstr "Ouvert"
 
 #: ckanext/issues/i18n/extra_translations.py:13
 msgid "Closed"
-msgstr "Untranslated French"
+msgstr "Fermé"
 
 #: ckanext/issues/i18n/extra_translations.py:14
 msgid "Visible"
-msgstr "Untranslated French"
+msgstr "Visible"
 
 #: ckanext/issues/i18n/extra_translations.py:15
 msgid "Hidden"
-msgstr "Untranslated French"
+msgstr "Masqué"
 
 #: ckanext/issues/i18n/extra_translations.py:16
 msgid "Status"
-msgstr "Untranslated French"
+msgstr "État d’avancement"
 
 #: ckanext/issues/i18n/extra_translations.py:17
 msgid "Visibility"
-msgstr "Untranslated French"
+msgstr "Visibilité"
 
 #: ckanext/issues/lib/helpers.py:202
 msgid "[{site_title} Issue] {dataset}"
-msgstr "Untranslated French"
+msgstr "[{site_title} Issue] {dataset}"
 
 #: ckanext/issues/logic/action/action.py:63
 msgid "Issue does not exist"
-msgstr "Untranslated French"
+msgstr "Le problème n’existe pas."
 
 #: ckanext/issues/logic/action/action.py:83
 msgid "Issue marked as spam/abuse"
-msgstr "Untranslated French"
+msgstr "Problème marqué comme spam/abusif"
 
 #: ckanext/issues/logic/action/action.py:554
 msgid "Issue has already been reported by this user"
-msgstr "Untranslated French"
+msgstr "Le problème a déjà été signalé par cet utilisateur."
 
 #: ckanext/issues/logic/validators/validators.py:13
 msgid "{0} is not a valid status"
-msgstr "Untranslated French"
+msgstr "{0} n’est pas un état d’avancement valide."
 
 #: ckanext/issues/logic/validators/validators.py:44
 #: ckanext/issues/logic/validators/validators.py:55
 msgid "Not found"
-msgstr "Untranslated French"
+msgstr "Non trouvé"
 
 #: ckanext/issues/logic/validators/validators.py:45
 msgid "Dataset"
-msgstr "Untranslated French"
+msgstr "Jeu de données"
 
 #: ckanext/issues/logic/validators/validators.py:56
 msgid "Organization"
-msgstr "Untranslated French"
+msgstr "Organisation"
 
 #: ckanext/issues/logic/validators/validators.py:65
 #: ckanext/issues/logic/validators/validators.py:78
 msgid "Issue not found"
-msgstr "Untranslated French"
+msgstr "Problème non trouvé"
 
 #: ckanext/issues/logic/validators/validators.py:87
 msgid "Issue Comment not found"
-msgstr "Untranslated French"
+msgstr "Commentaire problème non trouvé"
 
 #: ckanext/issues/public/scripts/autocomplete-action-api.js:31
 msgid "No matches found"
-msgstr "Untranslated French"
+msgstr "Aucun résultat trouvé"
 
 #: ckanext/issues/public/scripts/autocomplete-action-api.js:32
 msgid "Start typing…"
-msgstr "Untranslated French"
+msgstr "Commencez la saisie..."
 
 #: ckanext/issues/public/scripts/autocomplete-action-api.js:34
 msgid "Input is too short, must be at least one character"
-msgstr "Untranslated French"
+msgstr "Le contenu saisi est trop court ; il doit faire au moins un caractère."
 
 #: ckanext/issues/templates/issues/add.html:3
 #: ckanext/issues/templates/issues/add.html:5
 #: ckanext/issues/templates/issues/dataset.html:22
 msgid "New Issue"
-msgstr "Untranslated French"
+msgstr "Nouveau problème"
 
 #: ckanext/issues/templates/issues/add.html:16
 #: ckanext/issues/templates/issues/edit.html:14
 msgid "The form contains invalid entries:"
-msgstr "Untranslated French"
+msgstr "Le formulaire contient des entrées non valides :"
 
 #: ckanext/issues/templates/issues/add.html:27
 #: ckanext/issues/templates/issues/edit.html:25
 msgid "Title"
-msgstr "Untranslated French"
+msgstr "Titre"
 
 #: ckanext/issues/templates/issues/add.html:28
 #: ckanext/issues/templates/issues/edit.html:26
 msgid "Description"
-msgstr "Untranslated French"
+msgstr "Description"
 
 #: ckanext/issues/templates/issues/add.html:28
 #: ckanext/issues/templates/issues/edit.html:26
 msgid "Add a comment"
-msgstr "Untranslated French"
+msgstr "Ajouter un commentaire"
 
 #: ckanext/issues/templates/issues/add.html:33
 #: ckanext/issues/templates/issues/confirm_delete.html:14
 #: ckanext/issues/templates/issues/edit.html:34
 msgid "Cancel"
-msgstr "Untranslated French"
+msgstr "Annuler"
 
 #: ckanext/issues/templates/issues/add.html:35
 msgid "Create"
-msgstr "Untranslated French"
+msgstr "Créer"
 
 #: ckanext/issues/templates/issues/all_issues.html:5
 #: ckanext/issues/templates/issues/all_issues.html:12
 msgid "All Issues"
-msgstr "Untranslated French"
+msgstr "Tous les problèmes"
 
 #: ckanext/issues/templates/issues/base.html:9
 msgid "Datasets"
-msgstr "Untranslated French"
+msgstr "Jeux de données"
 
 #: ckanext/issues/templates/issues/base_form_page.html:14
 msgid "What are issues?"
-msgstr "Untranslated French"
+msgstr "Qu’est-ce qu’un problème ?"
 
 #: ckanext/issues/templates/issues/base_form_page.html:16
 msgid " <p>Issues are ... .</p> "
-msgstr "Untranslated French"
+msgstr " <p>Un problème est ... .</p> "
 
 #: ckanext/issues/templates/issues/comment_moderation.html:8
 #: ckanext/issues/templates/issues/moderation.html:8
 msgid "Reported issues"
-msgstr "Untranslated French"
+msgstr "Problèmes signalés"
 
 #: ckanext/issues/templates/issues/comment_moderation.html:28
 #: ckanext/issues/templates/issues/moderation.html:28
 #: ckanext/issues/templates/issues/organization_issues.html:11
 msgid "Organizations"
-msgstr "Untranslated French"
+msgstr "Organisations"
 
 #: ckanext/issues/templates/issues/comment_moderation.html:68
 #: ckanext/issues/templates/issues/moderation.html:69
 msgid "Not abuse"
-msgstr "Untranslated French"
+msgstr "Non abusif"
 
 #: ckanext/issues/templates/issues/common.html:7
 msgid "Spam/Abuse - hidden from normal users"
-msgstr "Untranslated French"
+msgstr "Spam/abusif - ne s’affiche pas pour les utilisateurs standards"
 
 #: ckanext/issues/templates/issues/common.html:11
 msgid "Reported by you to admins"
-msgstr "Untranslated French"
+msgstr "Signalé par vous aux administrateurs"
 
 #: ckanext/issues/templates/issues/common.html:30
 #: ckanext/issues/templates/issues/organization_issues.html:76
 #, python-format
 msgid "%s comments"
-msgstr "Untranslated French"
+msgstr "%s commentaires"
 
 #: ckanext/issues/templates/issues/confirm_delete.html:3
 #: ckanext/issues/templates/issues/confirm_delete.html:15
 msgid "Confirm Delete"
-msgstr "Untranslated French"
+msgstr "Confirmer la suppression"
 
 #: ckanext/issues/templates/issues/confirm_delete.html:11
 msgid "Are you sure you want to delete issue - {0}?"
-msgstr "Untranslated French"
+msgstr "Voulez-vous supprimer le problème - {0} ?"
 
 #: ckanext/issues/templates/issues/dataset.html:14
 #: ckanext/issues/templates/issues/dataset.html:20
@@ -405,90 +405,90 @@ msgstr "Untranslated French"
 #: ckanext/issues/templates/issues/organization_issues.html:22
 #: ckanext/issues/templates/issues/show.html:13
 msgid "Issues"
-msgstr "Untranslated French"
+msgstr "Problèmes"
 
 #: ckanext/issues/templates/issues/dataset.html:27
 #: ckanext/issues/templates/issues/organization_issues.html:27
 msgid "Search issues..."
-msgstr "Untranslated French"
+msgstr "Chercher les problèmes..."
 
 #: ckanext/issues/templates/issues/dataset.html:29
 #: ckanext/issues/templates/issues/organization_issues.html:29
 #: ckanext/issues/templates/snippets/search_result_text.html:7
 msgid "{number} issue found"
 msgid_plural "{number} issues found"
-msgstr[0] "Untranslated French"
-msgstr[1] "Untranslated French"
+msgstr[0] "{number} problème trouvé"
+msgstr[1] "{number} problèmes trouvés"
 
 #: ckanext/issues/templates/issues/dataset.html:39
 msgid "No issues"
-msgstr "Untranslated French"
+msgstr "Aucun problème"
 
 #: ckanext/issues/templates/issues/edit.html:3
 #: ckanext/issues/templates/issues/edit.html:5
 msgid "Edit Issue"
-msgstr "Untranslated French"
+msgstr "Modifier le problème"
 
 #: ckanext/issues/templates/issues/edit.html:36
 msgid "Update"
-msgstr "Untranslated French"
+msgstr "Mettre à jour"
 
 #: ckanext/issues/templates/issues/show.html:125
 msgid "Not spam/abuse"
-msgstr "Untranslated French"
+msgstr "Pas un spam/abusif"
 
 #: ckanext/issues/templates/issues/show.html:174
 msgid "{number} comment"
 msgid_plural "{number} comments"
-msgstr[0] "Untranslated French"
-msgstr[1] "Untranslated French"
+msgstr[0] "{number} commentaire"
+msgstr[1] "{number} commentaires"
 
 #: ckanext/issues/templates/issues/show.html:208
 msgid "Are you sure you want to delete this issue?"
-msgstr "Untranslated French"
+msgstr "Voulez-vous supprimer ce problème ?"
 
 #: ckanext/issues/templates/issues/show.html:209
 msgid "Delete"
-msgstr "Untranslated French"
+msgstr "Supprimer"
 
 #: ckanext/issues/templates/issues/show.html:214
 msgid "Close"
-msgstr "Untranslated French"
+msgstr "Fermer"
 
 #: ckanext/issues/templates/issues/show.html:218
 msgid "Re-open"
-msgstr "Untranslated French"
+msgstr "Réouvrir"
 
 #: ckanext/issues/templates/issues/show.html:224
 msgid "Comment"
-msgstr "Untranslated French"
+msgstr "Commenter"
 
 #: ckanext/issues/templates/issues/show.html:231
 msgid "Login to comment"
-msgstr "Untranslated French"
+msgstr "Veuillez vous identifier pour commenter."
 
 #: ckanext/issues/templates/issues/show.html:256
 msgid "This issue has been assigned to an administrator for the publisher"
-msgstr "Untranslated French"
+msgstr "Ce problème a été attribué à un administrateur pour l’éditeur."
 
 #: ckanext/issues/templates/issues/show.html:258
 msgid "No one"
-msgstr "Untranslated French"
+msgstr "Aucun"
 
 #: ckanext/issues/templates/issues/show.html:279
 msgid "Assign"
-msgstr "Untranslated French"
+msgstr "Attribuer"
 
 #: ckanext/issues/templates/snippets/search_result_text.html:5
 msgid "{number} issue found for \"{query}\""
 msgid_plural "{number} issues found for \"{query}\""
-msgstr[0] "Untranslated French"
-msgstr[1] "Untranslated French"
+msgstr[0] "{number} problème trouvé pour \"{query}\""
+msgstr[1] "{number} problèmes trouvés pour \"{query}\""
 
 #: ckanext/issues/templates/snippets/search_result_text.html:6
 msgid "No issues found for \"{query}\""
-msgstr "Untranslated French"
+msgstr "Aucun problème trouvé pour \"{query}\""
 
 #: ckanext/issues/templates/snippets/search_result_text.html:8
 msgid "No issues found"
-msgstr "Untranslated French"
+msgstr "Aucun problème trouvé"
