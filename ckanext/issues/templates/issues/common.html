@@ -4,11 +4,11 @@
         {% set reported_by_current_user = h.issues_user_has_reported_issue(current_user, issue.abuse_reports) %}
         {% if issue.visibility == 'hidden' %}
           <div class="issue-comment-label">
-            Spam/Abuse - hidden from normal users
+            {{_('Spam/Abuse - hidden from normal users')}}
           </div>
         {% elif reported_by_current_user %}
           <div class="issue-comment-label">
-            <i class="icon-flag"></i>Reported by you to admins
+            <i class="icon-flag"></i>{{_('Reported by you to admins')}}
           </div>
         {% endif%}
         <h4 class="list-group-item-name">
@@ -38,7 +38,7 @@
   <div class="module module-narrow module-shallow">
     <h2 class="module-heading">
         <i class="icon-medium icon-filter"></i>
-        Status
+        {{_('Status')}}
     </h2>
     <ul class="unstyled nav nav-simple">
         {% for valid_status in ['open', 'closed'] %}
@@ -53,7 +53,7 @@
     {% if user_can_change_visibility %}
     <h2 class="module-heading">
         <i class="icon-medium icon-filter"></i>
-        Visibility
+        {{_('Visibility')}}
     </h2>
     <ul class="unstyled nav nav-simple nav-facet">
         {% for valid_visibility in ['visible', 'hidden'] %}
