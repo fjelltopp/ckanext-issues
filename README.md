@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/ckan/ckanext-issues.svg?branch=master)](https://travis-ci.org/ckan/ckanext-issues)
-[![Coverage Status](https://coveralls.io/repos/ckan/ckanext-issues/badge.svg)](https://coveralls.io/r/ckan/ckanext-issues)
+[![Build Status](https://api.travis-ci.org/fjelltopp/ckanext-issues.svg?branch=development)](https://api.travis-ci.org/fjelltopp/ckanext-issues.svg?branch=development)
+[![Coverage Status](https://coveralls.io/repos/fjelltopp/ckanext-issues/badge.svg)](https://coveralls.io/r/fjelltopp/ckanext-issues)
 # CKAN Issues Extension
 
 This extension allows users to to report issues with datasets in a CKAN
