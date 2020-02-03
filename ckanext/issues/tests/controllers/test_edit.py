@@ -37,8 +37,15 @@ class TestIssueEdit(helpers.FunctionalTestBase,
                                 issue_number=self.issue['number']),
             extra_environ=env,
         )
-        # click the edit link
-        response = response.click(linkid='issue-edit-link', extra_environ=env)
+        assert_equals(response.response.status_int, 200)
+
+        # goto issue edit page
+        response = self.app.get(
+            url=toolkit.url_for('issues_edit',
+                                dataset_id=self.dataset['id'],
+                                issue_number=self.issue['number']),
+            extra_environ=env)
+
         # fill in the form
         form = response.forms['issue-edit']
         form['title'] = 'edited title'
