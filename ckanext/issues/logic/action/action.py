@@ -292,7 +292,7 @@ def issue_delete(context, data_dict):
         session=session
     )
     if not issue:
-        raise toolkit.ObjectNotFound(
+        raise p.toolkit.ObjectNotFound(
             '{issue_number} for dataset {dataset_id} was not found.'.format(
                 issue_number=issue_number,
                 dataset_id=dataset_id,
