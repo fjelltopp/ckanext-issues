@@ -1,5 +1,7 @@
 import factory
 import ckanext.issues.model
+import ckanext.lib.helpers as helpers
+from ckan.test import factories
 
 class Issue(factory.Factory):
     '''A factory class for creating issues.'''
@@ -29,7 +31,7 @@ class Issue(factory.Factory):
         if args:
             assert False, "Positional args aren't supported, use keyword args."
 
-        context = {'user': _get_action_user_name(kwargs)}
+        context = {'user': factories._get_action_user_name(kwargs)}
 
         group_dict = helpers.call_action('organization_create',
                                          context=context,
